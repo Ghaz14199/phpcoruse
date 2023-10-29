@@ -5,6 +5,8 @@ echo $_GET["number1"] / $_GET["number2"]; echo"<br>";*/
 $number1 = $_GET["number1"];
 $number2=$_GET["number2"];
 $op=$_GET["op"];
+
+
 //التحقق
 if(empty($number1)){$result= "الرقم الاول فارغ";}
 elseif(empty($number2)){$result= "الرقم الثاني فارغ";}
